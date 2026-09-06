@@ -252,3 +252,40 @@ def test_interactive_figure_contains_uncertainty(
     assert traces[0]["error_y"]["array"] == [10.0]
     assert traces[0]["error_y"]["arrayminus"] == [10.0]
     assert "Published 95% interval" in traces[0]["text"][0]
+
+
+def test_arc_harnesses_have_visible_labels(app: ModuleType, tmp_path: Path) -> None:
+    """Distinguish Astra's two harnesses while retaining every measured point.
+
+    Args:
+        app: The imported analysis module.
+        tmp_path: An isolated output directory.
+    """
+    models = ("GPT-6 Astra",)
+    panel = next(panel for panel in app.PANELS if panel.key == "arc3")
+    selected = app.panel_rows(app.snapshot_tables()["Results"], panel, models)
+    expected = {"Astra · Standard", "Astra · Provider Adapter"}
+    axes = Figure().add_subplot()
+    app.draw_panel(axes, selected, panel, models)
+    assert expected <= {label.get_text() for label in axes.texts}
+    assert len(axes.lines) == 2
+    assert sorted(np.asarray(line.get_xdata()).size for line in axes.lines) == [5, 5]
+
+    path = app.plot_interactive(selected, tmp_path, models)
+    payload = path.read_text().split("const traces=", maxsplit=1)[1]
+    traces, _ = json.JSONDecoder().raw_decode(payload)
+    labels = [trace for trace in traces if trace["mode"] == "text"]
+    assert {trace["text"][0] for trace in labels} == expected
+    for trace in labels:
+        assert trace["legendgroup"] == "GPT-6 Astra"
+        assert trace["name"] == "GPT-6 Astra"
+        assert trace["showlegend"] is False
+    curves = [trace for trace in traces if trace["mode"] == "lines+markers"]
+    assert {trace["line"]["dash"] for trace in curves} == {"solid", "dash"}
+    assert sorted(len(trace["x"]) for trace in curves) == [5, 5]
+    assert sorted(value for trace in curves for value in trace["x"]) == sorted(
+        selected["cost_usd"].tolist()
+    )
+    assert sorted(value for trace in curves for value in trace["y"]) == sorted(
+        selected["score"].tolist()
+    )

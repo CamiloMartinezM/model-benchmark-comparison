@@ -533,6 +533,28 @@ def dollar_tick(value: float, _position: float) -> str:
     return f"${value:g}"
 
 
+def harness_label(
+    panel: Panel, selected: pd.DataFrame, group: pd.DataFrame
+) -> str | None:
+    """Identify ARC curves when one model has multiple evaluation harnesses.
+
+    Args:
+        panel: The benchmark panel being drawn.
+        selected: All observations displayed in the panel.
+        group: One nonempty model and comparison group, ordered by effort.
+
+    Returns:
+        str | None: A visible model and harness label, or None if unambiguous.
+    """
+    model = str(group.iloc[0]["model"])
+    harnesses = selected.loc[selected["model"].eq(model), "harness"]
+    if panel.key != "arc3" or harnesses.nunique() < 2:
+        return None
+    harness = str(group.iloc[0]["harness"])
+    name = "Provider Adapter" if "Provider Adapter" in harness else "Standard"
+    return f"{model.removeprefix('GPT-6 ')} · {name}"
+
+
 def draw_panel(
     ax: Axes, selected: pd.DataFrame, panel: Panel, models: tuple[str, ...]
 ) -> None:
@@ -593,6 +615,21 @@ def draw_panel(
                 linewidths=1.2,
                 zorder=5 if focus else 4,
                 alpha=1.0 if focus else 0.8,
+            )
+        label = harness_label(panel, selected, group)
+        if label is not None:
+            anchor = group.iloc[-1]
+            ax.annotate(
+                label,
+                xy=(float(anchor["cost_usd"]), float(anchor["score"])),
+                xytext=(7, -12 if adapter else 9),
+                textcoords="offset points",
+                ha="left",
+                va="top" if adapter else "bottom",
+                fontsize=8.5,
+                color=color,
+                bbox={"facecolor": "white", "edgecolor": "none", "alpha": 0.85},
+                zorder=6,
             )
     ax.set_xscale("log")
     ax.xaxis.set_major_formatter(FuncFormatter(dollar_tick))
@@ -901,6 +938,26 @@ def plot_interactive(
                 }
             )
             seen_models.add(model)
+            label = harness_label(panel, selected, group)
+            if label is not None:
+                anchor = group.iloc[-1]
+                traces.append(
+                    {
+                        "type": "scatter",
+                        "mode": "text",
+                        "name": model,
+                        "legendgroup": model,
+                        "showlegend": False,
+                        "xaxis": x_reference,
+                        "yaxis": y_reference,
+                        "x": [float(anchor["cost_usd"])],
+                        "y": [float(anchor["score"])],
+                        "text": [label],
+                        "textposition": "bottom right" if adapter else "top right",
+                        "textfont": {"color": model_color(model, models), "size": 12},
+                        "hoverinfo": "skip",
+                    }
+                )
     layout["annotations"] = annotations
     bundle = (
         files("plotly")

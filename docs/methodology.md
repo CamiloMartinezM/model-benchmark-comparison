@@ -14,6 +14,19 @@ Several results illustrate why the effort setting matters:
 - On AA's text-only HLE, Astra max scores 54.680% at $0.37808 per question. Fable 5.1 max scores 59.129% at $1.58589. Fable's reported configuration includes fallback behavior. [Artificial Analysis HLE](https://artificialanalysis.ai/evaluations/humanitys-last-exam).
 - ARC Prize's Astra results show that higher effort can reduce total cost by reducing the number of actions. The Standard and Provider Adapter harnesses produce substantially different results, so the figure keeps both configurations explicit. [ARC Prize evaluation](https://arcprize.org/blog/astra).
 
+## ARC-AGI-3 harnesses
+
+Astra appears in two curves because ARC Prize evaluated two harnesses. Standard carries forward model-written visible notes. Provider Adapter also preserves opaque reasoning state between requests and uses context compaction. Both curves use the same model, with different state management. Direct labels identify each curve in the static and interactive figures. [ARC Prize evaluation](https://arcprize.org/blog/astra).
+
+At the same **max** effort setting:
+
+| Harness | Action efficiency score | Full evaluation cost |
+| --- | --- | --- |
+| Standard (solid) | 62.7% | $26,098 |
+| Provider Adapter (dashed) | 98.6% | $17,332 |
+
+These are separate configurations, not duplicate observations. Their efficiency calculations remain in separate comparison groups. Costs can decrease as effort increases because the model can finish with fewer actions. [ARC Prize evaluation](https://arcprize.org/blog/astra).
+
 ## Preserve the limitations
 
 The main figure uses benchmark-owner data. Provider launch tables remain separate observations. For example, Terminal-Bench's owner results differ from launch-table scores because evaluations differ. The workbook does not substitute one source's effort setting or score for another's.
