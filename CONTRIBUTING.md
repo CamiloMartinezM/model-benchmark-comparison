@@ -1,8 +1,20 @@
-# Contribute changes
+# 🤝 Contributing
+
+Contributions are welcome. You can:
+
+- Report bugs or source corrections.
+- Suggest features or additional benchmarks.
+- Submit pull requests.
+
+---
+
+## 💡 Report an Issue
 
 Report a source correction or proposed change in an issue. Include the model identifier, effort setting, benchmark version, harness, source URL, retrieval date, and the values that need attention.
 
-## Set up the environment
+---
+
+## 📦 Development Setup
 
 Use Python 3.12 or 3.13 and install the verified dependencies:
 
@@ -13,6 +25,10 @@ python -m pip install -r requirements-verified.txt
 ```
 
 For Windows PowerShell, use `.venv\Scripts\Activate.ps1` to activate the environment.
+
+---
+
+## ✅ Run the Checks
 
 Run the project checks before submitting a pull request:
 
@@ -26,7 +42,9 @@ python model_benchmark_comparison.py --validate-only
 
 Document functions with Google-style docstrings. A `Returns:` section includes the explicit return type, matching the annotation. Add tests for behavior changes that could affect comparisons, calculations, workbook preservation, or figure interpretation.
 
-## Change benchmark data
+---
+
+## 📊 Update Benchmark Data
 
 Use benchmark-owner data or provider documentation and record its provenance. Preserve unknown values as blanks. Do not infer effort settings, costs, uncertainty intervals, or model snapshot identities from nearby records.
 
@@ -42,4 +60,10 @@ python model_benchmark_comparison.py --output-dir scratch/reproduced
 
 Compare the workbook values and CSV data, then inspect the PNG and HTML figures. Spreadsheet archives and figure metadata can differ between runs, so byte-for-byte output equality is not required. Update the README inventory, coverage, source catalog, and research notes when their facts change.
 
-Keep credentials, local environments, caches, and unrelated files out of commits. Preserve third-party source attribution and license notices.
+---
+
+## 📜 License and Attribution
+
+This project is licensed under the [MIT License](LICENSE). Preserve the source attribution and applicable upstream terms described in the [third-party notices](THIRD_PARTY_NOTICES.md).
+
+Keep credentials, local environments, caches, and unrelated files out of commits.
