@@ -1,0 +1,7 @@
+# Runtime versions used for the September 6, 2026 snapshot.
+# requirements-verified.txt also pins the verification tools and transitive dependencies.
+matplotlib==3.11.1
+numpy==2.5.2
+openpyxl==3.1.5
+pandas==3.0.5
+plotly==7.0.0

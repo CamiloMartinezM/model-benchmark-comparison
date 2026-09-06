@@ -1,0 +1,67 @@
+model,panel,published_rows,score_cost_pairs,efforts_with_cost,status
+GPT-6 Astra,DeepSWE v1.1,5,5,"low, medium, high, xhigh, max",Available
+GPT-5.6 Sol,DeepSWE v1.1,5,5,"low, medium, high, xhigh, max",Available
+Claude Fable 5.1,DeepSWE v1.1,0,0,,No compatible score-cost pair
+GLM-5.3,DeepSWE v1.1,1,1,max,Available
+Claude Opus 5,DeepSWE v1.1,5,5,"low, medium, high, xhigh, max",Available
+Gemini 3.8 Flash,DeepSWE v1.1,2,2,"medium, high",Available
+DeepSeek V4 Pro 0813,DeepSWE v1.1,0,0,,No compatible score-cost pair
+Kimi K3,DeepSWE v1.1,1,1,max,Available
+GPT-5.6 Terra,DeepSWE v1.1,5,5,"low, medium, high, xhigh, max",Available
+GPT-5.6 Luna,DeepSWE v1.1,5,5,"low, medium, high, xhigh, max",Available
+Grok 4.6,DeepSWE v1.1,4,4,"low, medium, high, xhigh",Available
+GPT-6 Astra,Terminal-Bench 4.0,5,5,"low, medium, high, xhigh, max",Available
+GPT-5.6 Sol,Terminal-Bench 4.0,1,1,max,Available
+Claude Fable 5.1,Terminal-Bench 4.0,1,1,max,Available
+GLM-5.3,Terminal-Bench 4.0,1,1,max,Available
+Claude Opus 5,Terminal-Bench 4.0,1,1,max,Available
+Gemini 3.8 Flash,Terminal-Bench 4.0,1,1,high,Available
+DeepSeek V4 Pro 0813,Terminal-Bench 4.0,0,0,,No compatible score-cost pair
+Kimi K3,Terminal-Bench 4.0,0,0,,No compatible score-cost pair
+GPT-5.6 Terra,Terminal-Bench 4.0,1,1,max,Available
+GPT-5.6 Luna,Terminal-Bench 4.0,1,1,max,Available
+Grok 4.6,Terminal-Bench 4.0,1,1,high,Available
+GPT-6 Astra,FrontierCode 1.1 Extended,5,5,"low, medium, high, xhigh, max",Available
+GPT-5.6 Sol,FrontierCode 1.1 Extended,5,5,"low, medium, high, xhigh, max",Available
+Claude Fable 5.1,FrontierCode 1.1 Extended,5,5,"low, medium, high, xhigh, max",Available
+GLM-5.3,FrontierCode 1.1 Extended,1,1,max,Available
+Claude Opus 5,FrontierCode 1.1 Extended,5,5,"low, medium, high, xhigh, max",Available
+Gemini 3.8 Flash,FrontierCode 1.1 Extended,2,2,"medium, high",Available
+DeepSeek V4 Pro 0813,FrontierCode 1.1 Extended,1,1,high,Available
+Kimi K3,FrontierCode 1.1 Extended,1,1,none,Available
+GPT-5.6 Terra,FrontierCode 1.1 Extended,5,5,"low, medium, high, xhigh, max",Available
+GPT-5.6 Luna,FrontierCode 1.1 Extended,5,5,"low, medium, high, xhigh, max",Available
+Grok 4.6,FrontierCode 1.1 Extended,3,3,"low, medium, high",Available
+GPT-6 Astra,Humanity's Last Exam,5,5,"low, medium, high, xhigh, max",Available
+GPT-5.6 Sol,Humanity's Last Exam,6,6,"non-reasoning, low, medium, high, xhigh, max",Available
+Claude Fable 5.1,Humanity's Last Exam,5,5,"low, medium, high, xhigh, max",Available
+GLM-5.3,Humanity's Last Exam,1,1,max,Available
+Claude Opus 5,Humanity's Last Exam,5,5,"low, medium, high, xhigh, max",Available
+Gemini 3.8 Flash,Humanity's Last Exam,3,3,"low, medium, high",Available
+DeepSeek V4 Pro 0813,Humanity's Last Exam,1,1,max,Available
+Kimi K3,Humanity's Last Exam,2,2,"low, max",Available
+GPT-5.6 Terra,Humanity's Last Exam,6,6,"non-reasoning, low, medium, high, xhigh, max",Available
+GPT-5.6 Luna,Humanity's Last Exam,6,6,"non-reasoning, low, medium, high, xhigh, max",Available
+Grok 4.6,Humanity's Last Exam,4,4,"low, medium, high, xhigh",Available
+GPT-6 Astra,AA Intelligence Index v4.2,5,5,"low, medium, high, xhigh, max",Available
+GPT-5.6 Sol,AA Intelligence Index v4.2,6,5,"low, medium, high, xhigh, max",Available
+Claude Fable 5.1,AA Intelligence Index v4.2,5,1,max,Available
+GLM-5.3,AA Intelligence Index v4.2,1,1,max,Available
+Claude Opus 5,AA Intelligence Index v4.2,5,5,"low, medium, high, xhigh, max",Available
+Gemini 3.8 Flash,AA Intelligence Index v4.2,3,1,high,Available
+DeepSeek V4 Pro 0813,AA Intelligence Index v4.2,1,1,max,Available
+Kimi K3,AA Intelligence Index v4.2,2,1,max,Available
+GPT-5.6 Terra,AA Intelligence Index v4.2,6,3,"high, xhigh, max",Available
+GPT-5.6 Luna,AA Intelligence Index v4.2,6,2,"xhigh, max",Available
+Grok 4.6,AA Intelligence Index v4.2,4,1,high,Available
+GPT-6 Astra,ARC-AGI-3,10,10,"low, medium, high, xhigh, max",Available
+GPT-5.6 Sol,ARC-AGI-3,5,5,"low, medium, high, xhigh, max",Available
+Claude Fable 5.1,ARC-AGI-3,0,0,,No compatible score-cost pair
+GLM-5.3,ARC-AGI-3,0,0,,No compatible score-cost pair
+Claude Opus 5,ARC-AGI-3,1,1,high,Available
+Gemini 3.8 Flash,ARC-AGI-3,0,0,,No compatible score-cost pair
+DeepSeek V4 Pro 0813,ARC-AGI-3,0,0,,No compatible score-cost pair
+Kimi K3,ARC-AGI-3,0,0,,No compatible score-cost pair
+GPT-5.6 Terra,ARC-AGI-3,0,0,,No compatible score-cost pair
+GPT-5.6 Luna,ARC-AGI-3,0,0,,No compatible score-cost pair
+Grok 4.6,ARC-AGI-3,0,0,,No compatible score-cost pair

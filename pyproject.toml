@@ -1,0 +1,18 @@
+[tool.ruff]
+target-version = "py312"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "D"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+files = ["model_benchmark_comparison.py", "tests/test_model_benchmark_comparison.py"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

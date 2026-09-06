@@ -1,0 +1,15 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.html text eol=lf
+*.svg text eol=lf
+*.xlsx binary
+*.png binary
+*.pdf binary
+model_benchmark_comparison/*.html linguist-generated=true -whitespace
+model_benchmark_comparison/*.svg linguist-generated=true -whitespace
+model_benchmark_comparison/*.csv linguist-generated=true

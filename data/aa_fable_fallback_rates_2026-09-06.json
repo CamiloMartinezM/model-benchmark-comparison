@@ -1,0 +1,287 @@
+{
+  "claude-fable-5-1-low": {
+    "CR": {
+      "input": 0.013233,
+      "output": 0.008746,
+      "reasoning": 0.002948
+    },
+    "E_": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "Wx": {
+      "input": 0.224994,
+      "output": 0.016341,
+      "reasoning": 0.718621
+    },
+    "_h": {
+      "input": 0.072883,
+      "output": 0.027979,
+      "reasoning": 0.047827
+    },
+    "UP": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "YZ": {
+      "input": 0.087996,
+      "output": 0.060566,
+      "reasoning": 0.072132
+    },
+    "Fj": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "hC": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "Gb": {
+      "input": 0.000506,
+      "output": 0.001215,
+      "reasoning": 0.002584
+    },
+    "jL": {
+      "input": 0.085565,
+      "output": 0.090316,
+      "reasoning": 0.229504
+    },
+    "bP": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    }
+  },
+  "claude-fable-5-1-medium": {
+    "CR": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "E_": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "Wx": {
+      "input": 0.273398,
+      "output": 0.176053,
+      "reasoning": 0.697026
+    },
+    "_h": {
+      "input": 0.073897,
+      "output": 0.048033,
+      "reasoning": 0.060012
+    },
+    "UP": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "YZ": {
+      "input": 0.092096,
+      "output": 0.113986,
+      "reasoning": 0.044288
+    },
+    "Fj": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "hC": {
+      "input": 0.013037,
+      "output": 0.01323,
+      "reasoning": 0.002271
+    },
+    "Gb": {
+      "input": 0.004205,
+      "output": 0.004096,
+      "reasoning": 0.028326
+    },
+    "jL": {
+      "input": 0.129897,
+      "output": 0.113539,
+      "reasoning": 0.29129
+    },
+    "bP": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    }
+  },
+  "claude-fable-5-1-high": {
+    "CR": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "E_": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "Wx": {
+      "input": 0.261786,
+      "output": 0.25711,
+      "reasoning": 0.434429
+    },
+    "_h": {
+      "input": 0.074572,
+      "output": 0.056297,
+      "reasoning": 0.047627
+    },
+    "UP": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "YZ": {
+      "input": 0.093872,
+      "output": 0.148517,
+      "reasoning": 0.050256
+    },
+    "Fj": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "hC": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "Gb": {
+      "input": 0.000304,
+      "output": 0.001075,
+      "reasoning": 0.003525
+    },
+    "jL": {
+      "input": 0.121119,
+      "output": 0.128878,
+      "reasoning": 0.288613
+    },
+    "bP": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    }
+  },
+  "claude-fable-5-1-xhigh": {
+    "CR": {
+      "input": 0.011923,
+      "output": 0.011498,
+      "reasoning": 0.003296
+    },
+    "E_": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "Wx": {
+      "input": 0.289668,
+      "output": 0.284945,
+      "reasoning": 0.58209
+    },
+    "_h": {
+      "input": 0.074368,
+      "output": 0.055374,
+      "reasoning": 0.023105
+    },
+    "UP": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "YZ": {
+      "input": 0.09576,
+      "output": 0.168353,
+      "reasoning": 0.020318
+    },
+    "Fj": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "hC": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "Gb": {
+      "input": 0.000717,
+      "output": 0.001544,
+      "reasoning": 0.006342
+    },
+    "jL": {
+      "input": 0.147531,
+      "output": 0.12671,
+      "reasoning": 0.264339
+    },
+    "bP": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    }
+  },
+  "claude-fable-5-1": {
+    "CR": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "E_": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "Wx": {
+      "input": 0.31286,
+      "output": 0.290745,
+      "reasoning": 0.611071
+    },
+    "_h": {
+      "input": 0.07673,
+      "output": 0.057555,
+      "reasoning": 0.022891
+    },
+    "UP": {
+      "input": 0.003408,
+      "output": 0.00788,
+      "reasoning": 0.002437
+    },
+    "YZ": {
+      "input": 0.100596,
+      "output": 0.16711,
+      "reasoning": 0.012103
+    },
+    "Fj": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "hC": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    },
+    "Gb": {
+      "input": 0.000996,
+      "output": 0.002007,
+      "reasoning": 0.010895
+    },
+    "jL": {
+      "input": 0.157817,
+      "output": 0.140823,
+      "reasoning": 0.265838
+    },
+    "bP": {
+      "input": 0.0,
+      "output": 0.0,
+      "reasoning": 0.0
+    }
+  }
+}

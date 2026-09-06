@@ -1,0 +1,335 @@
+{
+  "retrieval_date": "2026-09-06",
+  "charts": [
+    {
+      "benchmark": "hle",
+      "source_url": "https://artificialanalysis.ai/evaluations/humanitys-last-exam",
+      "chart_title": "Humanity's Last Exam: Cost per Task",
+      "owner_cost_components_per_task": [
+        {
+          "label": "gpt-oss-120b (high)",
+          "answer": 0.00037729313948100087,
+          "reasoning": 0.013242517689990732,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 4.665556070435588e-05,
+          "detailsUrl": "/models/gpt-oss-120b"
+        },
+        {
+          "label": "GLM-5.3-Flash",
+          "answer": 0.00012107089898053752,
+          "reasoning": 0.021486153846153846,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 4.794633920296571e-05,
+          "detailsUrl": "/models/glm-5-3-flash"
+        },
+        {
+          "label": "MiniMax-M3",
+          "answer": 0.0005595681186283595,
+          "reasoning": 0.0252223890639481,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.00013882771084337348,
+          "detailsUrl": "/models/minimax-m3"
+        },
+        {
+          "label": "Gemini 3.5 Flash-Lite",
+          "answer": 0.0009166832715477295,
+          "reasoning": 0.0260633468489342,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 9.598220574606117e-05,
+          "detailsUrl": "/models/gemini-3-5-flash-lite"
+        },
+        {
+          "label": "GPT-5.6 Luna (max)",
+          "answer": 0.00028387896200185355,
+          "reasoning": 0.028910441149212228,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 6.208915662650603e-05,
+          "detailsUrl": "/models/gpt-5-6-luna"
+        },
+        {
+          "label": "Gemini 3.8 Flash (high)",
+          "answer": 0.0022739145041705284,
+          "reasoning": 0.08947155236329936,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.0002399277108433735,
+          "detailsUrl": "/models/gemini-3-8-flash"
+        },
+        {
+          "label": "Grok 4.6 (high)",
+          "answer": 0.0014974531974050046,
+          "reasoning": 0.11837852919369787,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.0006642409638554217,
+          "detailsUrl": "/models/grok-4-6"
+        },
+        {
+          "label": "Qwen3.8 27B (xhigh)",
+          "answer": 0.002443345690454124,
+          "reasoning": 0.1299353924930491,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.00019132414272474515,
+          "detailsUrl": "/models/qwen3-8-27b"
+        },
+        {
+          "label": "DeepSeek V4 Pro 0813 (max)",
+          "answer": 0.001059428452270621,
+          "reasoning": 0.1341504757367933,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.0005194591473586654,
+          "detailsUrl": "/models/deepseek-v4-pro"
+        },
+        {
+          "label": "Inkling",
+          "answer": 0.001267216473586654,
+          "reasoning": 0.13428161607970343,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.0003225083410565338,
+          "detailsUrl": "/models/inkling"
+        },
+        {
+          "label": "Qwen3.8 2.4T A95B",
+          "answer": 0.0032871547729379056,
+          "reasoning": 0.19753027340129753,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.0007523253012048193,
+          "detailsUrl": "/models/qwen3-8-2-4t-a95b"
+        },
+        {
+          "label": "Claude Fable 5.1 (medium with fallback)",
+          "answer": 0.021994068575544486,
+          "reasoning": 0.19910538240713627,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.004317295611563948,
+          "detailsUrl": "/models/claude-fable-5-1-medium"
+        },
+        {
+          "label": "GPT-5.6 Terra (max)",
+          "answer": 0.0025959036144578315,
+          "reasoning": 0.22452130676552362,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.0006130157553290084,
+          "detailsUrl": "/models/gpt-5-6-terra"
+        },
+        {
+          "label": "GLM-5.3 (max)",
+          "answer": 0.00150737312326228,
+          "reasoning": 0.2308857936978684,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.00045030370713623725,
+          "detailsUrl": "/models/glm-5-3"
+        },
+        {
+          "label": "GPT-6 Astra (xhigh)",
+          "answer": 0.013983271547729378,
+          "reasoning": 0.23608415199258573,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.003155083410565338,
+          "detailsUrl": "/models/gpt-6-astra-xhigh"
+        },
+        {
+          "label": "GPT-5.6 Sol (max)",
+          "answer": 0.0043543280815569975,
+          "reasoning": 0.26239232622798886,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.0016350139017608897,
+          "detailsUrl": "/models/gpt-5-6-sol"
+        },
+        {
+          "label": "GPT-6 Astra (max)",
+          "answer": 0.013781626506024096,
+          "reasoning": 0.361142562557924,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.0031526088971269694,
+          "detailsUrl": "/models/gpt-6-astra"
+        },
+        {
+          "label": "Kimi K3 (max)",
+          "answer": 0.003595030120481928,
+          "reasoning": 0.38883176552363297,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.0011766019462465245,
+          "detailsUrl": "/models/kimi-k3"
+        }
+      ]
+    },
+    {
+      "benchmark": "gpqa",
+      "source_url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
+      "chart_title": "GPQA Diamond: Cost per Task",
+      "owner_cost_components_per_task": [
+        {
+          "label": "GLM-5.3-Flash",
+          "answer": 7.656313131313131e-05,
+          "reasoning": 0.0053860025252525255,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 3.882272727272727e-05,
+          "detailsUrl": "/models/glm-5-3-flash"
+        },
+        {
+          "label": "gpt-oss-120b (high)",
+          "answer": 0.00011218454545454543,
+          "reasoning": 0.0063795930050505045,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 3.755227272727273e-05,
+          "detailsUrl": "/models/gpt-oss-120b"
+        },
+        {
+          "label": "MiniMax-M3",
+          "answer": 0.0005511636363636363,
+          "reasoning": 0.009214575757575756,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.00012220606060606062,
+          "detailsUrl": "/models/minimax-m3"
+        },
+        {
+          "label": "GPT-5.6 Luna (max)",
+          "answer": 0.00014632121212121213,
+          "reasoning": 0.009423430303030302,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.0003396474747474748,
+          "detailsUrl": "/models/gpt-5-6-luna"
+        },
+        {
+          "label": "Gemini 3.7 Flash (high)",
+          "answer": 0.0016088446969696967,
+          "reasoning": 0.008168125,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.0001866780303030303,
+          "detailsUrl": "/models/gemini-3-7-flash"
+        },
+        {
+          "label": "Gemini 3.5 Flash-Lite",
+          "answer": 0.0011723989898989899,
+          "reasoning": 0.010922689393939394,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 7.467121212121212e-05,
+          "detailsUrl": "/models/gemini-3-5-flash-lite"
+        },
+        {
+          "label": "Gemini 3.8 Flash (high)",
+          "answer": 0.001805,
+          "reasoning": 0.02257818181818182,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.0001866780303030303,
+          "detailsUrl": "/models/gemini-3-8-flash"
+        },
+        {
+          "label": "GLM-5.3 (max)",
+          "answer": 0.0006653111111111111,
+          "reasoning": 0.030590755555555557,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.0003623454545454545,
+          "detailsUrl": "/models/glm-5-3"
+        },
+        {
+          "label": "Grok 4.6 (high)",
+          "answer": 0.001353090909090909,
+          "reasoning": 0.03446272727272727,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.0005402020202020202,
+          "detailsUrl": "/models/grok-4-6"
+        },
+        {
+          "label": "GPT-6 Astra (high)",
+          "answer": 0.008365151515151516,
+          "reasoning": 0.026195454545454546,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.0025099494949494946,
+          "detailsUrl": "/models/gpt-6-astra-high"
+        },
+        {
+          "label": "Qwen3.8 27B (xhigh)",
+          "answer": 0.000799530303030303,
+          "reasoning": 0.04541587878787878,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.000152,
+          "detailsUrl": "/models/qwen3-8-27b"
+        },
+        {
+          "label": "DeepSeek V4 Pro 0813 (max)",
+          "answer": 0.0005277,
+          "reasoning": 0.058844099999999996,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.00043671333333333335,
+          "detailsUrl": "/models/deepseek-v4-pro"
+        },
+        {
+          "label": "Qwen3.8 2.4T A95B",
+          "answer": 0.0013746666666666666,
+          "reasoning": 0.06380978787878788,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.000626,
+          "detailsUrl": "/models/qwen3-8-2-4t-a95b"
+        },
+        {
+          "label": "Gemini 3.1 Pro Preview",
+          "answer": 0.007420121212121212,
+          "reasoning": 0.06362999999999999,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.0004962828282828283,
+          "detailsUrl": "/models/gemini-3-1-pro-preview"
+        },
+        {
+          "label": "GPT-6 Astra (xhigh)",
+          "answer": 0.008117676767676767,
+          "reasoning": 0.06193409090909091,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.0025099494949494946,
+          "detailsUrl": "/models/gpt-6-astra-xhigh"
+        },
+        {
+          "label": "GPT-5.6 Terra (max)",
+          "answer": 0.0015118181818181819,
+          "reasoning": 0.06998806060606061,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.00146989898989899,
+          "detailsUrl": "/models/gpt-5-6-terra"
+        },
+        {
+          "label": "GPT-5.6 Sol (max)",
+          "answer": 0.0025288888888888887,
+          "reasoning": 0.0693320202020202,
+          "cacheWrite": 0,
+          "cacheHit": 0,
+          "input": 0.0012917171717171717,
+          "detailsUrl": "/models/gpt-5-6-sol"
+        }
+      ]
+    }
+  ],
+  "selection_note": "Published evidence retains 35 of the 40 original chart comparisons after model selection."
+}
